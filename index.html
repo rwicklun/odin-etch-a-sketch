@@ -15,9 +15,11 @@
 
     </div>
     <div class="control-container">
-        <button>Random Colors!</button>
+        <button class="randomButton">Toggle Random Colors!</button>
+        <p class="toggleState">Off</p>
         <input type="range" type="number" id="grid-size" value="16" min="1" max="100" oninput="updateValueText()" onchange="updateGridSize()">
-        <p>16</p>
+        <p class="inputValueDisplay">16</p>
+        <button class="reset">Reset</button>
     </div>
 
     <div class="footer">
